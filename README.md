@@ -3,4 +3,4 @@
 
 Estou aprendendo a criar sites e agora vou gerenciar meus repositorios.
 
- <a href= "https://vanderleyl.github.io/html-css/exercicios/Desafio 10/index.html"> Executar o Desafio 10 </a>
+ <a href= "https://vanderleyl.github.io/html-css/exercicios/Desafio10/index.html"> Executar o Desafio 10 </a>
