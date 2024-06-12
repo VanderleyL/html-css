@@ -5,4 +5,4 @@ Estou aprendendo a criar sites e agora vou gerenciar meus repositorios.
 
  <a href= "https://vanderleyl.github.io/html-css/exercicios/ex0015/index.html"> Executar o exercicio 15. </a>
 
-<a href= "https://vanderleyl.github.io/html-css/exercicios/ex0018/index.html"> Executar o exercicio 15. </a>
+<a href= "https://vanderleyl.github.io/html-css/exercicios/ex0018/index.html"> Executar o exercicio 18. </a>
