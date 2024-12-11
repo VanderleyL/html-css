@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vandeco</title>
+</head>
+<body>
+    <h1>Dados Pessoais</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+
+<fieldset>
+    <p>
+        <label for="Inome">Nome</label> <br>
+        <input type="text" name="Nome" id="Inome" placeholder="Digite o nome completo">
+    </p>
+    
+    <fieldset>
+        <legend>Sexo</legend>
+        <input type="radio" name="sexo" id="isxmas"> <label for="isxmas">Masculino</label>
+        <input type="radio" name="sexo" id="isxfem"> <label for="isxfem">Feminino</label>
+    </fieldset> <br>
+    
+    <p>
+        <label for="iidade">Idade</label> <br>
+        <input type="text" name="Idade" id="iidade" minlength="1" maxlength="3">
+    </p>
+    
+    <p>
+        <label for="ipeso">Peso</label> <br>
+        <input type="text" name="Peso" id="ipeso" placeholder="KG" minlength="1" maxlength="3">
+    </p>
+    
+    <p>
+        <label for="ialtura">Altura</label> <br>
+        <input type="text" name="Altura" id="ialtura" maxlength="4">
+    </p>
+    
+    <p>
+        <label for="iemail">E-mail</label> <br>
+        <input type="text" name="Email" id="iemail">
+    </p>
+    
+    <p>
+        <label for="itelefone">Telefone</label> <br>
+        <input type="text" name="Telefone" id="itelefone" pattern="^\(\d{2}\)\d{4,5}-\d{4}$" required placeholder="(xx)xxxx-xxxx">    
+    </p>
+    <p>
+        <label for="iendereco">Endereco</label> <br>
+        <input type="text" name="Endereco" id="iendereco" maxlength="30" placeholder="Endereco completo">
+    </p>
+    
+    <p>
+        <label for="iprofisao">Profissao</label> <br>
+        <input type="text" name="" id="" list="lstprof">
+        <datalist id="lstprof">
+            <option value="ADM">Administracao</option>
+            <option value="DEV">Desenvolvedor</option>
+            <option value="CONT">Contabilista</option>
+            <option value="PROF">Professor</option>
+        </datalist> <br>
+    </p>
+    
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpar">
+</fieldset>
+
+    </form>
+</body>
+</html>
